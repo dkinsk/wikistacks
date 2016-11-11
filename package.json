@@ -1,0 +1,32 @@
+{
+  "name": "wikistacks",
+  "version": "1.0.0",
+  "description": "wikiproject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e html,js,css app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkinsk/wikistacks.git"
+  },
+  "author": "Ming and Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkinsk/wikistacks/issues"
+  },
+  "homepage": "https://github.com/dkinsk/wikistacks#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "nunjucks": "^3.0.0",
+    "pg": "^6.1.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
